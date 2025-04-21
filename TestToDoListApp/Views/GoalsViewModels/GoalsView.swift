@@ -71,7 +71,7 @@ struct GoalsView: View {
                         VStack(spacing: 4) {
                             ZStack {
                                 Circle()
-                                    .foregroundColor(.greenButton)
+                                    .foregroundColor(Color("GreenButton"))
                                     .frame(width: 60, height: 60)
                                 
                                 Image(systemName: "plus")
